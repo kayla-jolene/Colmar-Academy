@@ -4,7 +4,7 @@ html {
 font-family: 'Oswald', sans-serif;
 font-size: 16px;
 width: 100%;
-letter-spacing: 0.1em;
+letter-spacing: 0.125em;
 }
 
 /*Header*/
@@ -39,6 +39,10 @@ letter-spacing: 0.1em;
   padding-left: 16px;
 }
 
+.header li:hover {
+  color: #628047;
+}
+
 /*Main Banner*/
 
 .banner {
@@ -62,7 +66,7 @@ letter-spacing: 0.1em;
 }
 
 .banner h1 {
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: 500;
 }
 
@@ -70,4 +74,92 @@ letter-spacing: 0.1em;
   color: #fff;
   background-color: #628047;
   text-align: center;
+}
+
+.start-button:hover {
+  background-color: #9CCC72;
+}
+
+/*Information*/
+
+.information {
+  display: flex;
+  flex-direction: row;
+}
+
+.information h1 {
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+.information h2 {
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.column-1 {
+  width: 60%;
+  height: auto;
+  padding: 32px 24px;
+}
+
+.column-1 img {
+  width: 100%;
+}
+
+.column-1 h1 {
+  padding: 32px 0 24px 0;
+  color: #628047;
+}
+
+.column-1.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.column-1 p {
+  padding-bottom: 24px;
+}
+
+.column-1 span {
+  font-weight: 500;
+  color: #628047;
+}
+
+.column-2 {
+  width: 40%;
+  border: 1px solid #9CCC72;
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #9CCC72;
+}
+
+.box img {
+  height: 35%;
+  width: 35%;
+  padding: 16px;
+}
+
+.box p {
+  padding: 8px 0;
+}
+
+.box:hover {
+  background-color: #9CCC72;
+}
+
+.info {
+  padding: 16px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.information a {
+  color: blue;
+  text-decoration: none;
 }
