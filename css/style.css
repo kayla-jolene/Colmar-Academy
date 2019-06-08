@@ -7,6 +7,10 @@ width: 100%;
 letter-spacing: 0.125em;
 }
 
+p {
+  font-family: 'Quattrocento', serif;
+}
+
 /*Header*/
 
 .header {
@@ -162,4 +166,57 @@ letter-spacing: 0.125em;
 .information a {
   color: blue;
   text-decoration: none;
+}
+
+/*Courses*/
+
+.course-info {
+  background-color: #ECFFDB;
+  display: flex;
+  flex-direction: column;
+}
+
+.course-info h1 {
+  text-align: center;
+  padding-top: 32px;
+  font-size: 3rem;
+  font-weight: 500;
+  color: #628047;
+}
+
+.courses {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: 32px 72px;
+}
+
+.course {
+  background-color: #fff;
+  margin: 12px;
+  width: 25%;
+}
+
+.course img {
+  height: auto;
+  width: 100%;
+}
+
+.course-text {
+  width: 95%;
+  padding: 16px;
+}
+
+.course h2 {
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.course h3 {
+  font-weight: 200;
+  padding: 12px 0;
+}
+
+.course h3:hover {
+  text-shadow: 0 0 3px #628047;
 }
