@@ -292,8 +292,8 @@ video {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-
   padding: 16px 24px;
+  margin-bottom: 32px;
 }
 
 .footer ul {
