@@ -9,6 +9,7 @@ letter-spacing: 0.125em;
 
 p {
   font-family: 'Quattrocento', serif;
+  line-height: 1.25rem;
 }
 
 /*Header*/
@@ -60,7 +61,6 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  line-height: 3rem;
 }
 
 .banner img {
@@ -78,6 +78,7 @@ p {
   color: #fff;
   background-color: #628047;
   text-align: center;
+  padding: 16px;
 }
 
 .start-button:hover {
@@ -219,4 +220,67 @@ p {
 
 .course h3:hover {
   text-shadow: 0 0 3px #628047;
+}
+
+/*Thesis*/
+
+.thesis-heading {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 500;
+  color: #628047;
+  padding: 32px 0;
+}
+
+.columns {
+  display: flex;
+  flex-direction: row;
+}
+
+video {
+  width: 100%;
+}
+
+.column-1 h2 {
+  padding-top: 24px;
+}
+
+.column-1 p {
+  padding: 12px 0 32px 0;
+}
+
+.articles {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.article {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #9CCC72;
+}
+
+.article:hover {
+  background-color: #9CCC72;
+}
+
+.article-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.article img {
+  padding: 16px;
+  height: 1%;
+  width: 35%;
+}
+.article p {
+  padding-top: 8px;
+}
+
+.columns h2 {
+  font-size: 1.25rem;
+  font-weight: 500;
 }
